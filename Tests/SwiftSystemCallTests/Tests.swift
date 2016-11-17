@@ -1,5 +1,5 @@
 import XCTest
-@testable import SwiftSystemCall
+import SwiftSystemCall
 
 class SwiftSystemCallTests: XCTestCase {
     let system = System()

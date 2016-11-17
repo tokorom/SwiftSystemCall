@@ -5,6 +5,8 @@ import Foundation
 final public class System {
     public lazy var process = Process()
 
+    public init() {}
+
     public func call(_ command: String) -> Result {
         return call([command])
     }
