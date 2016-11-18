@@ -1,4 +1,8 @@
+# default
 .DS_Store
 /.build
 /Packages
 /*.xcodeproj
+
+# node
+/node_modules
